@@ -1,0 +1,136 @@
+.coop-caja{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.coop-img{
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.white{
+    transition: all 0.3s ease;
+}
+
+body.dark .white{
+    color: #fff;
+}
+
+.coop-titulo{
+    top: 15px;
+    right: 3px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.coop-subtitulo{
+    position: relative;
+    display: block;
+    float: left;
+    top: 10px;
+    transition: all 0.3s ease;
+}
+
+.service__subtitle{
+    list-style-type: none;
+}
+
+body.dark .coop-subtitulo{
+    color: #fff;
+}
+
+.tipos-de-servicios{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: -10px 10px 40px;
+    width: 900px;
+    transition: all 0.3s ease;
+} 
+
+body.dark .tipos-de-servicios{
+    background: #242526;
+}
+
+.tipos-de-servicios h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 10px;
+    
+}
+
+body.dark .tipos-de-servicios h1{
+    background-color: red;
+}
+
+.red{
+    color: Red;
+}
+
+.service__title{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+.titulo2{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+body.dark .titulo2{
+    color: #fff;
+}
+
+.subtitulo2{
+    font-size: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+body.dark .subtitulo2{
+    color: #fff;
+}
+
+body.dark .service__title{
+    color: #fff;
+}
+
+.service__subtitle{
+    font-size: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+body.dark .service__subtitle{
+    color: white;
+}
+
+.tipos-de-servicios a{
+    color: red;
+}
+
+body.dark .tipos-de-servicios a{
+    color: #fff;
+}
+
+.space{
+    margin: 100px;
+}
